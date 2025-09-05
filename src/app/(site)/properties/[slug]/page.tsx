@@ -123,27 +123,16 @@ export default function Details() {
                         </div>
                         <div className="flex flex-col gap-5">
                             <p className='text-dark dark:text-white text-xm '>
-                                Nestled in the heart of miami, the modern luxe villa at 20 s aurora ave offers a perfect blend of contemporary
-                                elegance and smart-home innovation. priced at $570000, this 560 ft² residence features 4 spacious bedrooms,
-                                3 luxurious bathrooms, and expansive living areas designed for comfort and style. built in 2025, the home
-                                boasts energy-efficient systems, abundant natural light, and state-of-the-art security features. outdoor
-                                spaces include two stylish bar areas, perfect for entertaining 8+ guests. enjoy the ultimate in modern living
-                                with premium amenities and a prime location.
+                                {item?.descriptions?.label1}
                             </p>
                             <p className='text-dark dark:text-white text-xm '>
-                                Step inside to discover an open-concept layout that seamlessly connects the kitchen, dining, and living spaces.
-                                the gourmet kitchen is equipped with top-of-the-line appliances, sleek cabinetry, and a large island perfect
-                                for casual dining or meal prep. the sunlit living room offers floor-to-ceiling windows, creating a bright and
-                                airy atmosphere while providing stunning views of the outdoor space.
+                                {item?.descriptions?.label2}
                             </p>
                             <p className='text-dark dark:text-white text-xm '>
-                                The primary suite serves as a private retreat with a spa-like ensuite bathroom and a spacious walk-in closet.
-                                each additional bedroom is thoughtfully designed with comfort and style in mind, offering ample space and modern
-                                finishes. the home’s three bathrooms feature high-end fixtures, custom vanities, and elegant tiling.
+                                {item?.descriptions?.label3}
                             </p>
                             <p className='text-dark dark:text-white text-xm '>
-                                Outdoor living is equally impressive, with a beautifully landscaped backyard, multiple lounge areas,
-                                and two fully equipped bar spaces.
+                                {item?.descriptions?.label4}
                             </p>
                         </div>
                         <div className="py-8 mt-8 border-t border-dark/5 dark:border-white/15">

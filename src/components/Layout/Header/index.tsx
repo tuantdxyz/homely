@@ -72,7 +72,7 @@ const Header: React.FC = () => {
                 className={`text-base flex items-center gap-2 border-r pr-6 ${
                   isHomepage
                     ? "text-dark dark:text-white hover:text-primary border-dark dark:border-white"
-                    : "text-dark hover:text-primary"
+                    : "text-dark dark:text-white hover:text-primary"
                 }`}
               >
                 <Icon icon="ph:phone-bold" width={24} height={24} />
@@ -132,7 +132,7 @@ const Header: React.FC = () => {
                 />
               ))}
               <li className="flex items-center gap-4">
-                <Link
+                {/* <Link
                   href="/signin"
                   className="py-4 px-8 bg-primary text-base leading-4 block w-fit text-white rounded-full border border-primary font-semibold mt-3 hover:bg-transparent hover:text-primary duration-300"
                 >
@@ -143,7 +143,7 @@ const Header: React.FC = () => {
                   className="py-4 px-8 bg-transparent border border-primary text-base leading-4 block w-fit text-primary rounded-full font-semibold mt-3 hover:bg-primary hover:text-white duration-300"
                 >
                   Sign up
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </nav>

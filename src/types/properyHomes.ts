@@ -6,6 +6,12 @@ export type PropertyHomes = {
   beds: number
   baths: number
   area: number
+  descriptions: {
+    label1: string;
+    label2: string;
+    label3: string;
+    label4: string;
+  }
   images: PropertyImage[]
 }
 
